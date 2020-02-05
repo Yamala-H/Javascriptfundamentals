@@ -1,0 +1,23 @@
+<html>
+<head>
+    <h3> This is a Application form </h3>
+</head>
+<body>
+    <p id="x" > </p>
+    <button type="button" onclick="sum()"> Click me </button>
+    <script>
+        function sum(){
+            let a=prompt("enter a value");
+            console.log(typeof(a));
+    let b=prompt("enter b value");
+    let c=prompt("enter c value");
+     let sum= parseInt(parseInt(a) + parseInt(b)+parseInt(c));
+     console.log(typeof(sum));
+     document.getElementById('x').innerHTML= sum;
+
+
+        }
+    
+    </script>
+</body>
+</html> 

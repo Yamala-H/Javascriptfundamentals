@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p id="Objectdemo"></p>
+    <p id="Hum"></p>
+    <p id ="Mobile"></p>
+    <p id="Computer"></p>
+    <p id="Datatype">
+    
+    </p>
+</body>
+<script src="./Object.js">
+</script>
+<script>
+document.getElementById('Objectdemo').innerHTML=car("Innova","honda")
+document.getElementById('Hum').innerHTML=Human("FirstName", "Lastname")
+document.getElementById('Mobile').innerHTML=Mobile("Huawei", "realme");
+document.getElementById('Computer').innerHTML=Computer("HP","DELL","Mac");
+document.getElementById('Datatype').innerHTML=Datatype(16+'',"BUS");
+var Person = {
+    FirstName : "JOhn" ,
+    Lastname :"Hendry",
+    age : 50,
+}
+console.log(Person.age);
+</script>
+</html>
